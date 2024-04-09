@@ -38,9 +38,13 @@ python HandTracking.py
 - Draws landmarks and connections on the detected hands for visualization.
 - Calculates and displays the frame rate (FPS) of the webcam feed.
 
+## 🤏 Examples 
+
+- HandGestureImageHolder.py script showcases an example of how to display a custom image on the screen and it gives the illusion that you are holding an image with just your three fingers (thumb,index and middle). The picture will move along the screen as long as you are maintaining this specific (Italian) gesture
+
 ## 🔧 Customization 
 
-You can import the  HandTrackingModule.py script and customize the behavior of the hand detector by modifying the parameters in the handDetector class constructor of the script. Here are some parameters you can adjust:
+You can import the HandTrackingModule.py script and customize the behavior of the hand detector by modifying the parameters in the handDetector class constructor of the script. Here are some parameters you can adjust:
 
 - `mode`: Set to `True` if using static images (default is `False` for webcam feed).
 - `maxHands`: Maximum number of hands to detect (default is `2`).
